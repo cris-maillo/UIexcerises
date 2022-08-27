@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+body > div{
+    margin-bottom: 20px;
+}
+
+.dropDownExercise{
+    width: fit-content;
+    border-radius: 20px;
+    padding: 0px 0px 10px 0px;
+}
+
+.dropDownExercise.visible{
+    background-color: rgb(208, 225, 255);
+}
+
+#hamburger{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(99, 156, 255);
+    width: fit-content;
+    padding: 5px 20px;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#dropdown{
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+#dropdown.hidden{
+    visibility: hidden;
+}
+
+
+.mobileMenuExercise{
+    width: 350px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: flex-end;
+    display: flex;
+}
+
+#bar{
+    background-color: rgb(208, 225, 255);
+    border-radius: 0px 0px 20px 20px;
+    width: inherit;
+    display: flex;
+    gap: 20px;
+    padding: 5px 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    cursor: pointer;
+}
+
+
